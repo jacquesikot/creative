@@ -29,7 +29,7 @@
                             <ul class="info-list clearfix">
                                 <li><i class="fas fa-envelope"></i><a href="mailto:info@creativelink.com">info@creativelink.com</a></li>
                                 <li><i class="fab fa-whatsapp"></i><a href="tel:+9715297677279">+971 52 976 7727</a></li>
-                                <li><i class="far fa-clock"></i>Sunday to Thursday: 9am - 6pm</li>
+                                <li><i class="far fa-clock"></i>Sunday to Thursday: 9.00 am - 6.00 pm</li>
                             </ul>
 
                             <div class="form-group">

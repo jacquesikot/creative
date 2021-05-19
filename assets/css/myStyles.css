@@ -30,4 +30,16 @@
 .my-consult-container p {
   color: white;
   font-size: 14px;
+  margin-top: 3px;
+}
+
+.my-form-field {
+  width: 40%;
+  margin: 10px 0;
+}
+
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
 }

@@ -3189,12 +3189,12 @@ h4 a {
   right: 0px;
   box-shadow: inset 0px -200px 100px -40px rgba(0, 0, 0, 0.8);
   z-index: 1;
-  transition: all 500ms ease;
+  transition: all 100ms ease;
 }
 
 .project-block-one .inner-box .image-box img {
   width: 100%;
-  transition: all 5s ease;
+  transition: all 2s ease;
 }
 
 .project-block-one .inner-box:hover .image-box img {
@@ -7033,7 +7033,7 @@ h4 a {
 
 .service-block-three .inner-box .lower-content {
   position: relative;
-  padding: 37px 45px 38px 45px;
+  padding: 32px 40px 33px 40px;
 }
 
 .service-block-three .inner-box .lower-content h3 {
@@ -11772,7 +11772,7 @@ h4 a {
 .service-details-content .content-style-one {
   position: relative;
   display: block;
-  margin-bottom: 54px;
+  margin-bottom: 28px;
 }
 
 .service-details-content .content-style-two .image-box {
@@ -11836,12 +11836,12 @@ h4 a {
   display: block;
   overflow: hidden;
   background: #f0f5f9;
-  font-size: 20px;
+  font-size: 17px;
   color: #222;
   line-height: 30px;
   font-weight: 400;
   border-radius: 3px;
-  padding: 25px 45px;
+  padding: 25px 35px;
   z-index: 1;
 }
 
@@ -12866,9 +12866,7 @@ h4 a {
   position: relative;
   display: block;
   border: 1px solid #dddddd;
-  border-top: none;
-  padding: 0px 45px;
-  padding-bottom: 15px;
+  padding: 15px 45px;
 }
 
 .blog-details-content .inner-box .post-info {
@@ -13366,6 +13364,7 @@ h4 a {
 }
 
 .contact-information .single-item .inner-box:hover .icon-box i {
+
 }
 
 .contact-information .single-item .inner-box h3 {

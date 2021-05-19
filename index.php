@@ -563,7 +563,7 @@
                             <div class="info-box">
                                 <figure class="info-logo"><img src="assets/images/icons/info-logo.png" alt=""></figure>
                                 <div class="icon-box"><i class="fas fa-phone"></i></div>
-                                <h2><a href="tel:18003698527">1-800-369-8527</a></h2>
+                                <h2><a href="tel:18003698527">+971 52 976 7727</a></h2>
                                 <div class="email"><a href="mailto:info@creativelink.com">info@creativelink.com</a></div>
                                 <ul class="list-item clearfix">
                                     <li>.&nbsp;<a href="index.php">Experienced</a>&nbsp;.</li>
@@ -859,7 +859,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-12 counter-column">
                     <div class="counter-block-one wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="count-outer count-box">
-                            <span class="count-text" data-speed="1500" data-stop="25">0</span>+
+                            <span class="count-text" data-speed="1500" data-stop="15">0</span>+
                         </div>
                         <p>Years of Experience</p>
                     </div>

@@ -1,17 +1,63 @@
 <div class="overlay-consult">
-    <div class="my-consult-container">
-        <div class="my-close-container">
-            <a class="consult-close" href="javascript:void(0)"><span>CLOSE</span></a>
-        </div>
-
-        <h3>Consult Now</h3>
+    <div class="consult-container contact-style-two ">
+        <a class="consult-close" href="javascript:void(0)"><span><i class="fas fa-times-circle"></i></span></a>
+        <h2>Consult Now</h2>
         <p>All fields marked with [<span style="color: red">*</span>] are mandatory</p>
+        <form method="post" class="default-form" id="consultform">
+            <input type="hidden" name="post_url" value="<?php echo $_SERVER['REQUEST_URI']; ?>">
+            <div class="row clearfix">
+                <div class="col-lg-4 col-md-4 col-sm-12 form-group">
+                    <div class="alert alert-success consult-success" role="alert"></div>
+                    <div class="alert alert-danger consult-error" role="alert"></div>
+                </div>
+            </div>
+            <div class="row clearfix">
+                <div class="col-lg-4 col-md-4 col-sm-12 form-group">
+                    <input type="text" name="name" placeholder="Your Name *" validate="Enter name">
+                </div>
+            </div>
+            <div class="row clearfix">
+                <div class="col-lg-4 col-md-4 col-sm-12 form-group">
+                    <input type="email" name="email" placeholder="Email address *" validate="Enter mail" class="validEmail">
+                </div>
+            </div>
+            <div class="row clearfix">
+                <div class="col-lg-4 col-md-4 col-sm-12 form-group">
+                    <input type="text" name="phone" placeholder="Phone *" validate="Enter phone ">
+                </div>
+            </div>
+            <div class="row clearfix">
+                <div class="col-lg-4 col-md-4 col-sm-12 form-group">
+                    <select class="" name="service_request" validate="Enter phone ">
+                        <option value="">Service Request *</option>
+                        <option value="Company Setup">Company Setup</option>
+                        <option value="Bank Assistance">Bank Assistance</option>
+                        <option value="Company Branding">Company Branding</option>
+                        <option value="PRO Services">PRO Services</option>
+                        <option value="Approvals">Approvals</option>
+                        <option value="Others">Others</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row clearfix">
+                <div class="col-lg-4 col-md-4 col-sm-6 form-group">
+                    <textarea name="comment" placeholder="Comment"></textarea>
+                </div>
+            </div>
+            <div class="row clearfix">
+                <div class="col-lg-4 col-md-4 col-sm-6 form-group message-btn">
+                    <button class="theme-btn style-one " type="button" id="consultsubmit">send request</button>
+                </div>
+            </div>
+            <div class="row clearfix">
+                <div class="col-lg-4 col-md-4 col-sm-6 form-group message-btn">
+                    <p><span style="float: left;font-size: 22px; margin-right: 10px"><i class="fas fa-lock"></i></span><span style="float: left;font-size: 16px; width:80%">We respect your privacy & only use your data to contact you about your enquiry.</span></p>
+                </div>
+            </div>
 
+
+        </form>
     </div>
-
-
-    </form>
-</div>
 
 </div>
 </div>
@@ -52,7 +98,7 @@
                 <nav class="main-menu navbar-expand-md navbar-light">
                     <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                         <ul class="navigation clearfix">
-                            <li class="dropdown" style="color: #000;"><a href="#">Our Services</a>
+                            <li class="dropdown" style="color: #000;"><a href="services.php">Our Services</a>
                                 <ul>
                                     <li class="dropdown">
                                         <a href="bank-assistance.php">Bank Assistance</a>

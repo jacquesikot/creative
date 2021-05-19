@@ -1,0 +1,33 @@
+.my-consult-container {
+  left: 60%;
+  padding: 30px 50px;
+  height: 100% !important;
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  overflow: auto;
+  background-color: #0a1c2d !important;
+}
+
+.my-close-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 35%;
+}
+
+.my-consult-container a > span {
+  color: white;
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.my-consult-container h3 {
+  color: white;
+  font-size: 34px;
+}
+
+.my-consult-container p {
+  color: white;
+  font-size: 14px;
+}

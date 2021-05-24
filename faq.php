@@ -72,66 +72,28 @@
     </section>
     <!--End Page Title-->
 
-
-    <!-- sidebar-page-container -->
-    <section class="sidebar-page-container">
-        <div class="auto-container">
-            <div class="row clearfix">
-                <div class="col-lg-12 col-md-12 col-sm-12 content-side">
-                    <div class="blog-details-content">
-                        <div class="inner-box">
-                            <div class="text">
-                                <h2>Taking Action For Benefits Of Business</h2>
-                                <p>Eabore etsu dolore magn aliqua enim veniam quis nostrud exercitas reprehenderit voluptate sed bvelit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non.</p>
-                                <h5>Eabore dolore magn aliqua enim veniam quis nostrud exercitas reprehenderit sint esse cillum dolore fugiat nulla pariatur excepteur sint.</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elitm sed do eiusmod tempor incididunt labore ets magna aliquatenim minim veniam quis nostrud exercitation ullamco laboris nisut aliquip ex ea commod Duis aute irure dolorn reprehenderit voluptate velit esse. Excepteur sint uda occaecat cupidatat non pro sunt culpa qui officia deserunt mollit anim id est laborum sed utm pers piciatis unde omnis iste dolor nat ipsum diu enimery sed ipsum voluptatem.</p>
-                                <h3>How to become a top conference speaker?</h3>
-                                <p>Magna aliquatenim minim veniam quis nostrud <span>exercitation ullamco laboris nisut</span> aliquip exa commod Duis aute irure dolorn reprehenderit voluptate velit es. Excepteur sint uda occaecat cupidatat non proid sunt culpa qui officia deserunt mollit anim id est laborum sed utms.</p>
-                            </div>
-                            <div class="two-column">
-                                <div class="row clearfix">
-                                    <div class="col-lg-6 col-md-6 col-sm-12 image-column">
-                                        <figure class="image-box"><img src="assets/images/news/news-21.jpg" alt=""></figure>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-12 image-column">
-                                        <figure class="image-box"><img src="assets/images/news/news-22.jpg" alt=""></figure>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="text">
-                                <p>Nostrud exercitation ullamco laboris nisut aliquip ex ea commod consequat. Duis aute irure dolorn prehes tate velit esse. Excepteur sint uda occaecat cupidatat non proident, como sunt culpa qui officia deserunt est laborum sed utms labore et dolore magna ipsum aliqua.</p>
-                                <blockquote>
-                                    <h5>Fugiat nulla pariatur excepteur sint occaecat cupidatat non proident euntin culp qui officia deserunt mollit anim idm esta laborum sed perspiciatis.</h5>
-                                    <span>Tim H. Berton</span>
-                                </blockquote>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elitm sed do eiusmod tempor incididunt ut labore magna aliquatenim minim veniam quis nostrud exercitation ullamco laboris nisut aliquip ex ea commod Duis aute irure dolorn reprehenderit voluptate velit esse.</p>
-                            </div>
-                        </div>
-                        <div class="post-share-option clearfix">
-                            <ul class="post-tags pull-left clearfix">
-                                <li><a href="blog-details.php">Finance</a></li>
-                                <li><a href="blog-details.php">Business</a></li>
-                                <li><a href="blog-details.php">Event</a></li>
-                            </ul>
-                            <ul class="post-share pull-right clearfix">
-                                <li class="share">
-                                    <a href="blog-details.php"><i class="fas fa-share-alt"></i></a>
-                                    <ul class="social-links">
-                                        <li><a href="index.php"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="index.php"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="index.php"><i class="fab fa-vimeo-v"></i></a></li>
-                                        <li><a href="index.php"><i class="fab fa-linkedin-in"></i></a></li>
-                                    </ul>
-                                </li>
-                                <li>Share This Post</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!-- FAQ Accordion -->
+    <div style="margin: 50px 150px;">
+        <h2 style="display: flex; justify-content: center; margin: 20px">FAQ's</h2>
+        <button class="my-accordion">Section 1</button>
+        <div class="my-panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
-    </section>
-    <!-- sidebar-page-container end -->
+
+        <button class="my-accordion">Section 2</button>
+        <div class="my-panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+
+        <button class="my-accordion">Section 3</button>
+        <div class="my-panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+
+    </div>
+
+
+    <!-- FAQ Accordion end-->
 
 
     <!-- main-footer -->

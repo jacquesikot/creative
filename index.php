@@ -22,9 +22,10 @@
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
     <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/myStyles.css" rel="stylesheet">
     <link href="assets/css/color.css" rel="stylesheet">
     <link href="assets/css/rtl.css" rel="stylesheet">
-    <link href="assets/css/myStyles.css" rel="stylesheet">
+
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
 
@@ -111,7 +112,7 @@
     <!-- info-section -->
     <section class="info-section">
         <div class="auto-container">
-            <div class="row clearfix">
+            <div class="row">
                 <div class="col-lg-7 col-md-12 col-sm-12 title-column">
                     <div class="title-inner">
                         <div class="year-box">
@@ -200,12 +201,12 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                     <div id="content_block_one">
                         <div class="content-box">
-                            <div class="sec-title left">
+                            <div class="my-sec-title">
                                 <h5>About Creative Link</h5>
                                 <h2>Largest Demand Partnership Buidling Financial Experts</h2>
                             </div>
                             <div class="text">
-                                <p>Exercitation llamco laboris nis aliquip sed conseqrure dolorn repreh deris luptate velit excepteur duis aute irure dolor voluptate.</p>
+                                <p class="my-ta">Exercitation llamco laboris nis aliquip sed conseqrure dolorn repreh deris luptate velit excepteur duis aute irure dolor voluptate.</p>
                             </div>
                             <div class="inner-box">
                                 <div class="single-item">
@@ -395,12 +396,12 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                     <div id="content_block_two">
                         <div class="content-box">
-                            <div class="sec-title left">
-                                <h5>annual Stats</h5>
+                            <div class="my-sec-title">
+                                <h5>Annual Stats</h5>
                                 <h2>Graph Shows Net Value Profit Assembling</h2>
                             </div>
                             <div class="text">
-                                <p>Exercitation llamco laboris nis aliquip sed conseqrure dolorn repreh deris luptate velit excepteur duis aute irure dolor voluptate labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea reprehenderit in voluptate.</p>
+                                <p class="my-ta">Exercitation llamco laboris nis aliquip sed conseqrure dolorn repreh deris luptate velit excepteur duis aute irure dolor voluptate labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea reprehenderit in voluptate.</p>
                             </div>
                             <div class="inner-box clearfix">
                                 <div class="single-progress-box">
@@ -942,7 +943,7 @@
                 alert("test");
                 var email = $("#email").val();
                 var name = $("#name").val();
-                if (email == '' && name = '') {
+                if (email == '' && name == '') {
                     $('#email').addClass('error').focus();
                 }
             });

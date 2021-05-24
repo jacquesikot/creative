@@ -72,7 +72,72 @@
 
 
     <!-- sidebar-page-container -->
-    <section class="sidebar-page-container">
+
+    <div style="padding: 30px 200px; display: flex; justify-content: center;">
+        <p style="text-align: center;">On this page you can download all the resources and forms that are available for your submission, please fill and email us the forms so that our experts can contact and help you.</p>
+    </div>
+
+    <!-- service-style-three -->
+    <section class="service-style-three service-page-2">
+        <div class="auto-container">
+            <div class="row clearfix">
+                <div class="col-lg-4 col-md-6 col-sm-12 service-block">
+                    <div class="service-block-three">
+                        <div class="inner-box">
+                            <figure class="image-box">
+                                <div class="overlay-box-1"></div>
+                                <div class="overlay-box-2"></div>
+                                <img src="assets/images/service/company_bank_account_dubai.jpg" alt="">
+                                <a href="company-account.php"><i class="fas fa-link"></i></a>
+                            </figure>
+                            <div class="lower-content">
+                                <h3><a href="company-account.php">DUBAI CHAMBER APPLICATION FORM</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 service-block">
+                    <div class="service-block-three">
+                        <div class="inner-box">
+                            <figure class="image-box">
+                                <div class="overlay-box-1"></div>
+                                <div class="overlay-box-2"></div>
+                                <img src="assets/images/service/personal_bank_account_dubai.jpg" alt="">
+                                <a href="personal-account.php"><i class="fas fa-link"></i></a>
+                            </figure>
+                            <div class="lower-content">
+
+                                <h3><a href="company-account.php">DUBAI CHAMBER APPLICATION FORM</a></h3>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 service-block">
+                    <div class="service-block-three">
+                        <div class="inner-box">
+                            <figure class="image-box">
+                                <div class="overlay-box-1"></div>
+                                <div class="overlay-box-2"></div>
+                                <img src="assets/images/service/personal_bank_account_dubai.jpg" alt="">
+                                <a href="personal-account.php"><i class="fas fa-link"></i></a>
+                            </figure>
+                            <div class="lower-content">
+
+                                <h3><a href="company-account.php">DUBAI CHAMBER APPLICATION FORM</a></h3>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- service-style-three end -->
+
+
+    <!-- <section class="sidebar-page-container">
         <div class="auto-container">
             <div class="row clearfix">
                 <div class="col-lg-12 col-md-12 col-sm-12 content-side">
@@ -93,7 +158,7 @@
                     </div>
                 </div>
             </div>
-    </section>
+    </section> -->
     <!-- sidebar-page-container end -->
 
 

@@ -57,7 +57,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                    <div class="col-lg-3 col-md-6 col-sm-12 footer-column" style="margin-bottom: -40px;">
                         <div class="footer-widget newsletter-widget">
                             <div class="widget-title">
                                 <h4>Newsletter</h4>
@@ -96,10 +96,10 @@
     <div class="footer-bottom">
         <div class="auto-container">
             <div class="copyright">
-                <p>&copy; 2021 Creative Link - All rights reserved.</p>
+                <p style="font-size: 15px;">&copy; 2021 Creative Link - All rights reserved.</p>
             </div>
             <div class="powered">
-                <a href="https://infoquestit.com">Powered by Infoquest</a>
+                <a style="font-size: 15px;" href="https://infoquestit.com">Powered by Infoquest</a>
             </div>
         </div>
     </div>

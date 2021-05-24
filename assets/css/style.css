@@ -2530,17 +2530,17 @@ div#mCSB_1_container {
 /** info-section **/
 
 .info-section {
-  position: relative;
-  padding: 100px 0px;
+  /* position: relative;
+  padding: 100px 0px; */
 }
 
 .info-section .title-inner {
-  position: relative;
+  /* position: relative;
   padding-left: 250px;
   display: flex;
   vertical-align: middle;
   align-items: center;
-  min-height: 180px;
+  min-height: 180px; */
 }
 
 .info-section .title-inner .year-box {
@@ -13508,6 +13508,7 @@ h4 a {
 .border_white {
   border-color: #fff !important;
 }
+
 .overlay-consult {
   position: fixed;
   display: none; /* Sit on top of the page content */
